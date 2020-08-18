@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: Arial;
+}
+
+div.container{
+    border: 2px solid #969042;
+    background: rgb(231, 230, 214);
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+    padding: 4px;
+    display: flex;
+}
+
+.container-label{
+    border: 2px solid #888012;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+
+.container-input{
+    border: 2px solid #888012;
+    width: 100%;
+}
+
+input{
+    width: 97%;
+    height: 85%;
+    outline: none;
+
+}
+
+input:hover{
+    background-color: #cfcebf;
+}
+
+input::placeholder{
+    color: #5e5803;
+    font-weight: bold;
+}
